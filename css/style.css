@@ -1,0 +1,22 @@
+/* bannière image */
+.bgimage {
+	height: 100vh;
+	background: url("/image/moi.jpg");
+	background-size: cover;
+	position: relative;
+}
+/* texte de la bannière*/
+.ban_title {
+	font-size: 4rem;
+}
+.ban_ecrit {
+	font-size: 2rem;
+}
+.ban_text {
+	text-align: center;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
