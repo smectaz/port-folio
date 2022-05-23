@@ -1,3 +1,12 @@
+/*style lien navigation*/
+.lien {
+	color: black !important;
+	font-size: 1.5em !important;
+	z-index: 1;
+	font-weight: 800;
+	font-variant: small-caps;
+}
+
 /* bannière image */
 .bgimage {
 	height: 100vh;
@@ -19,4 +28,9 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
+}
+
+/* about section image css */
+.imageAboutPage {
+	width: 100%;
 }
