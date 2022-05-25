@@ -2,9 +2,7 @@
 .lien {
 	color: black !important;
 	font-size: 1.5rem !important;
-	z-index: 1;
-	font-weight: 800;
-	font-variant: small-caps;
+	font-weight: 400;
 }
 
 /* bannière image */
@@ -36,5 +34,31 @@
 }
 
 .imagelogo {
-	width: 50%;
+	margin-right: 80px;
+	width: 20%;
+}
+
+/* services section css */
+.servicesText.card {
+	height: 280px;
+	cursor: pointer;
+}
+.servicesIcon {
+	font-size: 36px;
+	text-align: center;
+	width: 100%;
+}
+.card-title {
+	text-align: center;
+}
+.card:hover .servicesIcon {
+	color: #008000;
+}
+.servicesText:hover {
+	border: 1px solid #008000;
+}
+
+.imagelogodev {
+	margin-left: 115px;
+	width: 30%;
 }
