@@ -40,7 +40,7 @@
 
 /* services section css */
 .servicesText.card {
-	height: 280px;
+	height: 250px;
 	cursor: pointer;
 }
 .servicesIcon {
@@ -48,17 +48,34 @@
 	text-align: center;
 	width: 100%;
 }
-.card-title {
+.center-text {
 	text-align: center;
 }
 .card:hover .servicesIcon {
 	color: #008000;
 }
 .servicesText:hover {
-	border: 1px solid #008000;
+	border: 2px solid #008000;
 }
 
 .imagelogodev {
-	margin-left: 115px;
-	width: 30%;
+	align-items: center;
+	width: 10%;
+	display: flex;
+}
+
+.languages {
+	margin-left: 10px;
+}
+
+.frameworks {
+	margin-left: 45px;
+}
+
+.travail {
+	margin-left: 70px;
+}
+
+.conception {
+	margin-left: 200px;
 }
