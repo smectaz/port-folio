@@ -277,20 +277,55 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 mt-4">
+                <div class="col-lg-4 mt-5">
                     <div class="card servicetext">
-                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                        <img class="card-img-top" src="./image/photo/portfolio.png" alt="Photo site" style="width:100%">
                         <div class="card-body">
-                            <h4 class="card-title">Blog App</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <h4 class="card-title">Porfolio</h4>
+                            <p class="card-text">Le site sur lequel vous êtes.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                                <a target="_blank" href="https://github.com/smectaz/port-folio" class="btn btn-success">Code du Projet</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
     </section>
+<!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="googlemaps-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=11+rue+du+président&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                        </div>
+                        <a class="codefor-google-map" href="https://www.embed-map.com" id="make-mapdata">https://www.embed-map.com</a>
+                        <style>#googlemaps-canvas img{max-height:none;max-width:none!important;background:none!important;}</style>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form netlify>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
 		<!-- load javascript after loading all html content -->
 		<script src="js/script.js"></script>
 	</body>
