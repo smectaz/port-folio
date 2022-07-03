@@ -79,6 +79,16 @@
 	background-color: black;
 }
 
+/*style projet*/
+.servicetext.card {
+	height: 420px;
+	cursor: pointer;
+}
+
+.servicetext:hover {
+	border: 2px solid #008000;
+}
+
 /*style page biblio*/
 .img {
 	width: 500px;
