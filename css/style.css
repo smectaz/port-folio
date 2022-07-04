@@ -1,0 +1,122 @@
+/*style lien navigation*/
+.lien {
+	color: black !important;
+	font-size: 1.5rem !important;
+	font-weight: 400;
+}
+
+/* bannière image */
+.bgimage {
+	height: 100vh;
+	background: url("/image/photo/moi.jpg");
+	background-size: cover;
+	position: relative;
+}
+/* texte de la bannière*/
+.ban_title {
+	font-size: 4rem;
+}
+.ban_ecrit {
+	font-size: 2rem;
+}
+.ban_text {
+	text-align: center;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+/* about section image css */
+.imageAboutPage {
+	width: 100%;
+}
+
+.imagelogo {
+	margin-right: 80px;
+	width: 20%;
+}
+
+/* services section css */
+.center-text {
+	text-align: center;
+}
+
+.servicesText.card {
+	height: 250px;
+	cursor: pointer;
+}
+
+.servicesText:hover {
+	border: 2px solid #008000;
+}
+
+.imagelogodev {
+	align-items: center;
+	width: 10%;
+	display: flex;
+}
+
+.languages {
+	margin-left: 10px;
+}
+
+.frameworks {
+	margin-left: 45px;
+}
+
+.travail {
+	margin-left: 70px;
+}
+
+.conception {
+	margin-left: 200px;
+}
+
+/*display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+	background-color: black;
+}
+
+/*style projet*/
+.servicetext.card {
+	height: 420px;
+	cursor: pointer;
+}
+
+.servicetext:hover {
+	border: 2px solid #008000;
+}
+
+/*style page biblio*/
+.img {
+	width: 500px;
+	height: 400px;
+}
+
+.serviceText.card {
+	height: 600px;
+	cursor: pointer;
+}
+
+.serviceText:hover {
+	border: 2px solid #008000;
+}
+
+.image img {
+	/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+	-webkit-transition: all 1s ease; /* Safari et Chrome */
+	-moz-transition: all 1s ease; /* Firefox */
+	-ms-transition: all 1s ease; /* Internet Explorer 9 */
+	-o-transition: all 1s ease; /* Opera */
+	transition: all 1s ease;
+}
+.image:hover img {
+	/* L'image est grossie de 25% */
+	-webkit-transform: scale(1.25); /* Safari et Chrome */
+	-moz-transform: scale(1.25); /* Firefox */
+	-ms-transform: scale(1.25); /* Internet Explorer 9 */
+	-o-transform: scale(1.25); /* Opera */
+	transform: scale(1.25);
+}
